@@ -18,7 +18,7 @@ Als Teil des Setups:
 
 1. Visual Studio Code direkt durch den Microsoft Store installieren
 2. [WSL installieren](./wsl_setup/installWSL_de.md)
-3. [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) über den Installer installieren
+3. [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) über den Installer installieren und die Applikation starten
 4. Den Root-Ordner dieser Git-Repo in einem WSL Terminal öffnen
 5. Mithilfe von `code .` diesen Ordner in Visual Studio Code öffnen
 
@@ -64,6 +64,8 @@ Du wirst ganz links im Visual Studio Code-Fenster einige Icons sehen, darunter w
 ![VSCode Remote Explorer Icon](./wsl_setup/images/remote_explorer.png)
 
 Klicke im Remote Explorer den Button *Open Folder in Container*:
+
+Falls dieser Button nicht erscheint, weil bereits andere Dev-Containers vorhanden sind, öffne die Command-Palette mit `Ctrl + Shift + P` und gib den Befehl `Dev Containers: Open Folder in Container...` ein.
 
 ![VSCode Remote Explorer Button](./wsl_setup/images/open_in_container.png)
 
